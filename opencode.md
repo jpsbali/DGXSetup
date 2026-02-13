@@ -1,4 +1,5 @@
 # opencode VS Code Extension
+
 A Visual Studio Code extension that integrates opencode directly into your development workflow.
 
 Prerequisites
@@ -24,3 +25,31 @@ To test your changes:
 In the debug VS Code window, press Cmd+Shift+P
 Search for Developer: Reload Window
 Reload to see your changes without restarting the debug session
+
+# OpenCode
+OpenCode includes free models, to start:
+
+cd <project>  # Open directory
+opencode      # Run command
+
+For more information visit https://opencode.ai/docs
+
+# Setup opencode.json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "ollama": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "vLLM (local)",
+      "options": {
+        "baseURL": "http://localhost:8000/v1"
+      },
+      "models": {
+        "NVFP4/Qwen3-Coder-30B-A3B-Instruct-FP4": {
+          "name": "Qwen3 30B"
+        }
+      }
+    }
+  }
+}
+
