@@ -1,4 +1,4 @@
-#opencode VS Code Extension
+# opencode VS Code Extension
 A Visual Studio Code extension that integrates opencode directly into your development workflow.
 
 Prerequisites
