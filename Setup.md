@@ -52,7 +52,7 @@ DeepSeek Coder V2: A strong, popular choice for code generation, noted for its e
 
 4. GPT-OSS 120B: Suitable for complex tasks requiring high capability, though it is better for prototyping than high-throughput production.
 
-Check Below Notes:
+# Check Below Notes:
 which of DeepSeek, MiniMax, and Gwen is good for spec driven development
 For specification-driven development (SDD), where upfront planning and architectural decomposition are critical, MiniMax M2.5 is currently the standout choice. 
 While all three models are high-performance coding tools, they excel in different phases of the development lifecycle:
@@ -144,5 +144,12 @@ For the full Docker commands and further details, please refer to NVIDIA Develop
 Key flags for the DGX Spark environment include --gpu-memory-utilization for reserving memory, --attention-backend flashinfer for improved efficiency, --privileged for unified memory access, and --ipc=host for shared memory communication. 
 Would you like the OpenCode environment variables to point your IDE to these three specific local ports?
 
+# Links
 https://forums.developer.nvidia.com/t
 https://forums.developer.nvidia.com/t/best-inference-framework-open-models-for-orchestrator-workers-agentic-coding-on-gb10-5090-hybrid/356455
+https://huggingface.co/MiniMaxAI/MiniMax-M2/blob/main/docs/vllm_deploy_guide.md#:~:text=System%20Requirements,minimax_m2%20%5C%20%2D%2Dreasoning%2Dparser%20minimax_m2_append_think
+https://docs.vllm.ai/projects/recipes/en/latest/MiniMax/MiniMax-M2.html
+https://medium.com/@amri369/how-to-serve-deepseek-flagship-models-for-inference-with-vllm-and-tgi-using-openai-sdk-176b6cb801ef
+https://forums.developer.nvidia.com/t/run-vllm-in-spark/348862/136?page=7
+
+
