@@ -145,3 +145,4 @@ Key flags for the DGX Spark environment include --gpu-memory-utilization for res
 Would you like the OpenCode environment variables to point your IDE to these three specific local ports?
 
 https://forums.developer.nvidia.com/t
+https://forums.developer.nvidia.com/t/best-inference-framework-open-models-for-orchestrator-workers-agentic-coding-on-gb10-5090-hybrid/356455
