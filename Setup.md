@@ -50,5 +50,22 @@ DeepSeek Coder V2: A strong, popular choice for code generation, noted for its e
 
 3. Llama 3.1 8B: Recommended for maximum speed and lower-latency tasks.
 
-4. GPT-OSS 120B: Suitable for complex tasks requiring high capability, though it is better for prototyping than high-throughput production. 
+4. GPT-OSS 120B: Suitable for complex tasks requiring high capability, though it is better for prototyping than high-throughput production.
+
+Check Below Notes:
+1. Qwen 2.5 / Qwen 3 Coder (Best Overall for Coding) 
+Why it's best for Specs: Qwen models excel at interpreting complex, nuanced requirements and turning them into functional code, maintaining a high balance between creativity and practical application.
+Key Strengths: It consistently produces better-structured, user-friendly, and maintainable code. It is highly reliable in tool-calling scenarios.
+Context: With up to 256K-1M context windows, it is excellent for repository-level analysis, allowing it to understand how a specific feature fits into a larger codebase. 
+2. DeepSeek (Best for Algorithmic Logic & Efficiency) 
+Why it's good for Specs: If your specifications require complex algorithms, mathematical computations, or tight, logical reasoning, DeepSeek (specifically V3 or R1) is highly effective.
+Key Strengths: DeepSeek-Coder-V2 excels in competitive programming benchmarks and provides high-speed, cost-efficient inference.
+Verdict: Ideal for generating the backend logic or data structures derived from a spec, though it might require more prompting for UI polish compared to Qwen. 
+3. MiniMax (Best for Agentic Workflows) 
+Why it's good for Specs: According to recent 2026 data, MiniMax M2.5 has shown exceptional performance in agentic benchmarks (SWE-Bench Verified), making it highly effective at working autonomously as a "coworker".
+Key Strengths: It is highly efficient and excels at working within IDE agents (like Cline) to handle multi-file operations. 
+Summary Recommendation
+For Feature Development/Full-Stack Specs: Qwen 3 Coder (highest code quality and structure).
+For Algorithmic/Mathematical Specs: DeepSeek-V3 (best reasoning and speed).
+For Agentic/Self-Driving Development: MiniMax M2.5 (best at multi-file debugging). 
 
