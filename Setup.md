@@ -14,6 +14,7 @@ vllm serve meta-llama/Llama-3.1-8B-Instruct
 
 # Cleanup stopped vLLM's and remove the image from local docker
 docker rm $(docker ps -aq --filter ancestor=nvcr.io/nvidia/vllm:${LATEST_VLLM_VERSION})
+
 docker rmi nvcr.io/nvidia/vllm 
 
 # Use one of the following AI Models and run them on different ports:
